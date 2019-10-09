@@ -72,7 +72,7 @@ function Placeholder() {
 //   return (
 //     <div onMouseMove={onMove} onScroll={onScroll}>
 //       <div style={{ height: '700%', overflow: 'hidden' }}>
-        
+
 //       </div>
 //       <a.svg style={{ transform: interpBg }} viewBox="0 0 490 512">
 //         <g id="bg">

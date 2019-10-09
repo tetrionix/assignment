@@ -2,17 +2,16 @@ import React from 'react'
 //import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
-
 import './style.scss'
 import FontAwesome from '../fontawesome'
 
 function TopNav() {
-    // const [visible, setVisible] = useState(true);
+  // const [visible, setVisible] = useState(true);
 
   function showMe() {
-      // console.log(visible)
-      // setVisibile(false)
-      // console.log(visible)
+    // console.log(visible)
+    // setVisibile(false)
+    // console.log(visible)
   }
 
   return (
@@ -33,9 +32,7 @@ function TopNav() {
           </NavLink>
         </li>
         <li className="item">
-          <NavLink to="/studys">
-            CASE STUDY
-          </NavLink>
+          <NavLink to="/studys">CASE STUDY</NavLink>
         </li>
         <li className="item">
           <NavLink to="/portfolio">PORTFOLIO</NavLink>
