@@ -4,15 +4,19 @@ node_js:
 
 cache: npm
 
-before_install:
-  - ls -la
-  - pwd
-  - mkdir public
+before_install
+  - "npm config set spin false"
+  - npm i -g now
 
 install:
-  - ls -la
   - npm install
   - ls -la
+sript:
+  -npm run build
+  -npm run test
   
-  
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  skip_cleanup: true  
 
